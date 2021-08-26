@@ -52,7 +52,7 @@ export const setError = (error) => {
 
 // Thunks
 
-export const loadDataTC = () => (dispatch, getState) => {
+export const loadDataTC = (dispatch) => {
 
     dispatch(setFetchingStatus(true));
 
