@@ -15,13 +15,13 @@ function MainPage(props) {
 
     useEffect(() => {
         if (data.length === 0) {
-            dispatch(loadDataTC);
+            dispatch(loadDataTC());
         }
     }, []);
 
     const handleClick = () => {
         dispatch(setError(false));
-        dispatch(loadDataTC)
+        dispatch(loadDataTC())
     }
 
     return (
