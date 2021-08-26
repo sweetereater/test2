@@ -1,0 +1,52 @@
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorPanel {
+    color: rgb(180, 4, 4);
+    padding: 1rem 1.5rem;
+    background-color: rgb(243, 170, 170);
+    border: 1px solid red;
+    border-radius: 5px;
+    animation: errorPanelEmerging 0.7s linear;
+}
+
+.newRequest {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+@keyframes errorPanelEmerging {
+    
+    0% {
+        margin-top: -60%;
+    }
+
+    80% {
+        margin-top: 0;
+    }
+
+    90% {
+        margin-top: 5%;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+
+}

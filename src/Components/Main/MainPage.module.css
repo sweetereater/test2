@@ -1,0 +1,22 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    color: black;
+    background-color: darkgray;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+}
+

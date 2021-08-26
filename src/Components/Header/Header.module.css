@@ -1,0 +1,16 @@
+.mainHeader {
+    height: 100px;
+    background-color:rgb(69, 205, 247);
+    display: flex;
+    align-items: center;
+}
+
+.headerLink {
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
